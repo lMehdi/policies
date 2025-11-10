@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Privacy Policy</title>
+    <style>
+        /* Simple, clean and responsive styling */
+        :root{
+          --bg:#f7f9fb;
+          --card:#ffffff;
+          --muted:#6b7280;
+          --accent:#2563eb;
+          --radius:12px;
+          --max-width:900px;
+          --pad:22px;
+          --shadow: 0 6px 18px rgba(16,24,40,0.06);
+          --serif: "Georgia", "Times New Roman", serif;
+          --ui: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+        }
+
+        html,body{
+          height:100%;
+          margin:0;
+          font-family:var(--ui);
+          background:linear-gradient(180deg,var(--bg),#eef3fb 60%);
+          color:#0f172a;
+          -webkit-font-smoothing:antialiased;
+          -moz-osx-font-smoothing:grayscale;
+        }
+
+        .wrap{
+          max-width:var(--max-width);
+          margin:48px auto;
+          padding:16px;
+        }
+
+        .card{
+          background:var(--card);
+          border-radius:var(--radius);
+          box-shadow:var(--shadow);
+          padding:var(--pad);
+          overflow:hidden;
+        }
+
+        header{
+          display:flex;
+          gap:16px;
+          align-items:center;
+          margin-bottom:6px;
+        }
+
+        .logo {
+          width:56px;
+          height:56px;
+          border-radius:10px;
+          display:flex;
+          align-items:center;
+          justify-content:center;
+          font-weight:700;
+          background:linear-gradient(135deg,var(--accent),#7c3aed);
+          color:white;
+          box-shadow: 0 6px 18px rgba(37,99,235,0.12);
+          font-family:var(--serif);
+        }
+
+        h1{
+          font-size:1.4rem;
+          margin:0;
+          line-height:1.1;
+        }
+
+        .meta{
+          color:var(--muted);
+          font-size:0.95rem;
+          margin-top:6px;
+        }
+
+        nav.toc{
+          margin:18px 0;
+          padding:12px;
+          border-radius:10px;
+          background:linear-gradient(180deg,#fbfdff,#f6f9ff);
+          font-size:0.95rem;
+          display:flex;
+          gap:12px;
+          flex-wrap:wrap;
+        }
+        nav.toc a{
+          color:var(--accent);
+          text-decoration:none;
+          padding:6px 10px;
+          border-radius:8px;
+        }
+        nav.toc a:hover{ text-decoration:underline; }
+
+        section{
+          margin-top:18px;
+          line-height:1.6;
+        }
+
+        h2{
+          font-size:1.05rem;
+          margin:0 0 8px 0;
+          color:#081028;
+        }
+
+        p, li{
+          font-size:0.98rem;
+          color:#0b1220;
+          margin:8px 0;
+        }
+
+        ul, ol{
+          margin:8px 0 12px 1.25rem;
+        }
+
+        .third-party {
+          background:#fbfcff;
+          border-left:4px solid #e6eefc;
+          padding:12px;
+          border-radius:8px;
+          margin:10px 0;
+        }
+
+        .policy-footer{
+          display:flex;
+          justify-content:space-between;
+          gap:12px;
+          align-items:center;
+          margin-top:22px;
+          padding-top:14px;
+          border-top:1px dashed #e6eef6;
+          font-size:0.95rem;
+          color:var(--muted);
+        }
+
+        address{
+          font-style:normal;
+          line-height:1.4;
+          color:#0b1220;
+        }
+
+        .muted{
+          color:var(--muted);
+          font-size:0.9rem;
+        }
+
+        /* small screens */
+        @media (max-width:640px){
+          .policy-footer{ flex-direction:column; align-items:flex-start; gap:8px; }
+          header{ gap:12px; }
+        }
+
+        /* Print-friendly */
+        @media print {
+          body { background: white; color: black; }
+          .wrap { margin:0; padding:0; }
+          .card { box-shadow: none; border-radius: 0; }
+          nav.toc { display: none; }
+        }
+    </style>
+</head>
+<body>
+<div class="wrap">
+    <div class="card" role="article" aria-labelledby="policy-title">
+        <header>
+            <div class="logo" aria-hidden="true">PP</div>
+            <div>
+                <h1 id="policy-title">Privacy Policy</h1>
+                <div class="meta">Last updated: <strong>04/11/2025</strong></div>
+            </div>
+        </header>
+
+        <nav class="toc" aria-label="Table of contents">
+            <a href="#data-collection">1. Data Collection</a>
+            <a href="#third-party">2. Third-Party Services</a>
+            <a href="#in-app">3. In-App Purchases</a>
+            <a href="#ads">4. Ads & Child-Friendly Content</a>
+            <a href="#security">5. Security</a>
+            <a href="#rights">6. User Rights</a>
+            <a href="#updates">7. Policy Updates</a>
+            <a href="#contact">8. Contact</a>
+        </nav>
+
+        <section id="intro">
+            <p>
+                This Privacy Policy explains how the <strong>this App</strong> handles user information.
+                We value the privacy of children and families who use our learning application.
+            </p>
+        </section>
+
+        <section id="data-collection" aria-labelledby="data-collection-heading">
+            <h2 id="data-collection-heading">1. Data Collection</h2>
+            <p>The App does not collect, store, or share any personal data. No user profiles or activity tracking are created.</p>
+        </section>
+
+        <section id="third-party" aria-labelledby="third-party-heading">
+            <h2 id="third-party-heading">2. Third-Party Services</h2>
+            <p>
+                The App uses third-party services to provide technical stability and deliver advertisements.
+                These partners may independently collect non-personal data (such as device type, operating system, country, or anonymized IP).
+            </p>
+
+            <div class="third-party" role="region" aria-label="Third-party services list">
+                <strong>Third-party services used:</strong>
+                <ul>
+                    <li><strong>Firebase (Google LLC)</strong> – for analytics, performance, and crash reports.</li>
+                    <li><strong>AdMob (Google LLC)</strong> – for displaying age-appropriate ads.</li>
+                    <li><strong>AppLovin</strong> – for ad delivery and revenue management.</li>
+                </ul>
+
+                <p class="muted">Each service operates under its own privacy policy:</p>
+                <ul class="muted">
+                    <li>Firebase Privacy Policy</li>
+                    <li>Google / AdMob Privacy Policy</li>
+                    <li>AppLovin Privacy Policy</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="in-app" aria-labelledby="in-app-heading">
+            <h2 id="in-app-heading">3. In-App Purchases</h2>
+            <p>The App uses Google Play Billing for in-app purchases. All payments are handled directly by Google.</p>
+            <p>No financial or transaction data is stored by the App.</p>
+            <p>Access to the store is protected by a simple math question to ensure that only parents can make purchases.</p>
+        </section>
+
+        <section id="ads" aria-labelledby="ads-heading">
+            <h2 id="ads-heading">4. Ads and Child-Friendly Content</h2>
+            <p>
+                Ads shown through AdMob or AppLovin are configured to be family-appropriate in accordance with Google Play’s Family Policy.
+                No violent, shocking, or inappropriate content is displayed.
+            </p>
+        </section>
+
+        <section id="security" aria-labelledby="security-heading">
+            <h2 id="security-heading">5. Security</h2>
+            <p>
+                Even though the App does not collect personal data, we take all necessary measures to maintain a secure and compliant environment (GDPR and COPPA standards).
+            </p>
+        </section>
+
+        <section id="rights" aria-labelledby="rights-heading">
+            <h2 id="rights-heading">6. User Rights</h2>
+            <p>
+                As no personal data is collected, there are no data access, modification, or deletion options.
+                For any privacy-related questions, contact us at:
+            </p>
+            <address>
+                📧 <a href="mailto:io.mehdev@gmail.com">io.mehdev@gmail.com</a>
+            </address>
+        </section>
+
+        <section id="updates" aria-labelledby="updates-heading">
+            <h2 id="updates-heading">7. Policy Updates</h2>
+            <p>We may update this Privacy Policy at any time. Any changes will appear here with an updated date.</p>
+        </section>
+
+        <section id="contact" aria-labelledby="contact-heading">
+            <h2 id="contact-heading">8. Contact</h2>
+            <address>
+                Developer: <strong>MEHDEV</strong><br>
+                Email: <a href="mailto:io.mehdev@gmail.com">io.mehdev@gmail.com</a><br>
+                Country: <strong>France</strong>
+            </address>
+        </section>
+
+        <div class="policy-footer">
+            <div class="muted">This app does not collect personal data.</div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
